@@ -51,21 +51,17 @@ export default function Home() {
                 </div>
 
                 <div id='infor'>
-                    <div>
-                        <span><i class="fa-solid fa-location-dot"></i></span>
-                        <span>Lam San, Cam My, Dong Nai</span>
+                    <div className='infor-item'>
+                        <span className='icon'><i class="fa-solid fa-location-dot"></i></span>
+                        <span className='text'>Lam San, Cam My, Dong Nai</span>
                     </div>
-                    <div>
-                        <span><i class="fa-solid fa-phone"></i></span>
-                        <span>0367.090.553</span>
+                    <div className='infor-item'>
+                        <span className='icon'><i class="fa-solid fa-phone"></i></span>
+                        <span className='text'>0367.090.553</span>
                     </div>
-                    <div>
-                        <span><i class="fa-solid fa-envelope"></i></span>
-                        <span>giapthan0604@gmail.com</span>
-                    </div>
-                    <div>
-                        <span><i class="fa-brands fa-facebook-f"></i></span>
-                        <span><a href='https://www.facebook.com/dg.than.29/'>Đặng Giáp Thân</a></span>
+                    <div className='infor-item'>
+                        <span className='icon'><i class="fa-solid fa-envelope"></i></span>
+                        <span className='text'>giapthan0604@gmail.com</span>
                     </div>
                 </div>
             </div>

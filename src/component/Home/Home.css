@@ -78,12 +78,42 @@
     bottom: -15px;
 }
 
+#infor {
+    margin-top: 24px;
+    padding: 14px 14px;
+}
+
+#infor .infor-item{
+    margin: 4px 4px;
+}
+
+#infor .infor-item .text {
+    font-weight: bold;
+    margin-left: 4px;
+}
+
+#infor .infor-item .icon {
+    margin: 5px;
+    font-size: 16px;
+}
 
 /* pc */
 @media screen and (min-width: 740px) {
+
+    #infor {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        justify-items: center;
+    }
+
+    #infor .infor-item{
+        font-size: 16px;
+    }
+
     .card {
         width: 520px;
-        height: 560px;
+        height: 520px;
         background-color: #fff;
         border-radius: 10px;
         font-family: 'Poppins', sans-serif;
@@ -109,6 +139,10 @@
 /* mobile */
 @media screen and (max-width: 740px) {
 
+    #infor .infor-item{
+        font-size: 12px;
+    }
+
     #social {
         font-size: 25px;
         padding: 5px 80px;
@@ -116,7 +150,7 @@
 
     .card {
         width: 320px;
-        height: 460px;
+        height: 440px;
         background-color: #fff;
         border-radius: 10px;
         font-family: 'Poppins', sans-serif;
