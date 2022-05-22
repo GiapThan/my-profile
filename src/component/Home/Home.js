@@ -52,15 +52,15 @@ export default function Home() {
 
                 <div id='infor'>
                     <div className='infor-item'>
-                        <span className='icon'><i class="fa-solid fa-location-dot"></i></span>
+                        <span className='icon'><i className="fa-solid fa-location-dot"></i></span>
                         <span className='text'>Lam San, Cam My, Dong Nai</span>
                     </div>
                     <div className='infor-item'>
-                        <span className='icon'><i class="fa-solid fa-phone"></i></span>
+                        <span className='icon'><i className="fa-solid fa-phone"></i></span>
                         <span className='text'>0367.090.553</span>
                     </div>
                     <div className='infor-item'>
-                        <span className='icon'><i class="fa-solid fa-envelope"></i></span>
+                        <span className='icon'><i className="fa-solid fa-envelope"></i></span>
                         <span className='text'>giapthan0604@gmail.com</span>
                     </div>
                 </div>
